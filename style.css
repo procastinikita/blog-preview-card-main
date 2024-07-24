@@ -1,0 +1,73 @@
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  padding: 5rem 1rem;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font: weight 500px;;
+  font-style: normal;
+
+}
+
+.container {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 0px black;
+  max-width: 400px;
+  width: 100%;
+
+}
+
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+button {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  padding:5px,5px,5px,5px;
+}
+
+.par-one {
+  font-weight: bold;
+}
+
+.par-two {
+  color: hsl(0, 0%, 50%)
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+margin-top: 1rem;
+}
+
+ul li {
+  font-weight: bold;
+  margin: 0 10px;
+}
+ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Space between the image and the text */
+}
+
+ul li:nth-child(2) {
+    margin-left: 0;
+}
